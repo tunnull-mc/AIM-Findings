@@ -1,0 +1,2 @@
+# ADP file type
+These files are bog standard HTML and can be rewritten in any way and be read by AIM. I've not had an issue using PHP code inside of them using a .htaccess file.
