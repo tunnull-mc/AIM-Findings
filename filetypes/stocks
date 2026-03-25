@@ -1,0 +1,19 @@
+# Stock File Format
+Although similar, this format is very different from headlines.html. Below are line definitions for these files.
+
+These files are pretty much colon-separated CSV lines with custom headers and line breaks.
+
+Title=MyStock | REQUIRED
+Section=MyPortfolio | REQUIRED
+DATA=SYMBOL;Symbol Name;Last Price;Change;High;Low;Open;Volume;52Week High;52 Week Low;
+
+Sep0: Symbol (Col 00) - Can be arbitrary - Limit = 31
+Sep1: Name (Col 10) - Can be arbitrary - Limit = 31
+Sep2: Last Price (Col 01)
+Sep3: Change (Col 02)
+Sep4: High (Col 04)
+Sep5: Low (Col 05)
+Sep6: Open (Col 06)
+Sep7: Volume (Col 07)
+Sep8: 52High (Col 08)
+Sep9: 52Low (Col 09)
